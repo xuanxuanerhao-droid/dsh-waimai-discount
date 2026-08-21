@@ -1,0 +1,6 @@
+# dsh-waimai-discount profile bundle: registers every skills/<name>/SKILL.md
+# bundle in this package on ctx.skills. Applied after @deepseek-ai/dsh-base,
+# which already mounts the skill registry and the model-facing skill loader.
+- insert:
+    - id: dsh-waimai-discount
+      name: dsh-waimai-discount

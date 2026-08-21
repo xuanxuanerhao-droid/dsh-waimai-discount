@@ -1,0 +1,44 @@
+{
+  "name": "dsh-waimai-discount",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness bundle that registers the waimai-discount skill pack (外卖优惠助手) on ctx.skills. Takeout/delivery discount channel finder for Meituan, Ele.me, JD Delivery and Taobao Shanguo — official, commission-free coupon entry guides.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/xuanxuanerhao-droid/dsh-waimai-discount",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuanxuanerhao-droid/dsh-waimai-discount.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xuanxuanerhao-droid/dsh-waimai-discount/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "waimai",
+    "takeout",
+    "discount",
+    "coupon",
+    "meituan",
+    "eleme",
+    "agent-skills"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "yaml": "^2.4.2"
+  }
+}
